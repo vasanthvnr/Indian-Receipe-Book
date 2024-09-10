@@ -28,7 +28,7 @@ In this also include @media tag that should be responsive for mobile phones and 
 
 # Java Script
 
-In js contains only alert signals to indicate the user.
+In js only for searching the food in the Menu page.
 
 
 # To download the Complete Folder in save it in a any drive to run it Without any Errors.
