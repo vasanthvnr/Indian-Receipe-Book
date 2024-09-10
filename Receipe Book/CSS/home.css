@@ -1,0 +1,172 @@
+/* Base Styles */
+.name {
+  font-size: xx-large;
+  padding-left: 80px;
+  padding-top: -40px;
+  color: blue;
+}
+
+header {
+  background-color: rgb(32, 19, 216);
+}
+
+footer {
+  background-color: gray;
+}
+
+a {
+  color: antiquewhite;
+  padding: 30px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Bottom left text */
+.quotes {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding-top: 40px;
+  font-size: 50px;
+  color: rgb(245, 245, 247);
+  text-shadow: #FC0 1px 0 10px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.link {
+  text-shadow: rgb(4, 212, 248) 1px 0 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+ul img {
+  padding-top: 5px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .name {
+    font-size: large;
+    padding-left: 20px;
+    padding-top: 0;
+  }
+
+  a {
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .quotes {
+    font-size: 30px;
+    top: 5px;
+    left: 5px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .link {
+    font-size: 30px;
+  }
+}
+
+/* Tablets (Portrait) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .name {
+    font-size: x-large;
+    padding-left: 40px;
+    padding-top: -20px;
+  }
+
+  a {
+    padding: 25px;
+    font-size: 13px;
+  }
+
+  .quotes {
+    font-size: 40px;
+    top: 8px;
+    left: 8px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .link {
+    font-size: 40px;
+  }
+}
+
+/* Tablets (Landscape) and Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .name {
+    font-size: xx-large;
+    padding-left: 60px;
+    padding-top: -30px;
+  }
+
+  a {
+    padding: 30px;
+    font-size: 14px;
+  }
+
+  .quotes {
+    font-size: 45px;
+    top: 9px;
+    left: 9px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+
+  .link {
+    font-size: 45px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .name {
+    font-size: xx-large;
+    padding-left: 80px;
+    padding-top: -40px;
+  }
+
+  a {
+    padding: 30px;
+    font-size: 14px;
+  }
+
+  .quotes {
+    font-size: 50px;
+    top: 10px;
+    left: 10px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .link {
+    font-size: 50px;
+  }
+}

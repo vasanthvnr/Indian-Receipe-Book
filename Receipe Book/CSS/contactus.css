@@ -1,0 +1,33 @@
+header{
+  background-color: rgb(32, 19, 216);
+}
+footer{
+  background-color: gray;
+}
+
+li{
+  float: right;
+  display: flex;
+  list-style: none;
+}
+p{
+  
+  font-size: xx-large;
+}
+a{
+  text-decoration: none;
+}
+center{
+  font-size: xx-large;
+}
+ul li a{
+    color: antiquewhite;
+    
+    padding:30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+ul img{
+  padding-top: 5px;
+  
+}
